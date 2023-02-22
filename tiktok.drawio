@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T11:37:40.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1660.13" etag="fFhXCac2N-lda4O3WC06" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T11:38:49.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1660.13" etag="dmRUueiTJ07V0EYb1bOD" version="20.8.22" type="github">
   <diagram name="第 1 页" id="-vlab-wln1I7YojuGcyD">
     <mxGraphModel dx="736" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7bCZedMBDCGuFrCVrtYH-1" value="Handler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="156" y="381" width="290" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="7bCZedMBDCGuFrCVrtYH-2" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="156" y="450" width="290" height="43" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
