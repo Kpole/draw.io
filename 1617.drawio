@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T05:32:04.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1660.13" etag="vZmTojPujkCo4phv_dZ6" version="20.8.22" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-03T05:32:55.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1660.13" etag="HMcaYYhnAk1skwVQK8V6" version="20.8.22" type="github" pages="7">
   <diagram name="第 1 页" id="3MDf4YGmxCO-XQUa7wRc">
     <mxGraphModel dx="832" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -436,7 +436,7 @@
         <mxCell id="mil8iCHffXOVC5dH87-_-12" value="&lt;font&gt;4&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Comic Sans MS;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="401" y="240" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mil8iCHffXOVC5dH87-_-13" value="&lt;font&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Comic Sans MS;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="mil8iCHffXOVC5dH87-_-13" value="&lt;font&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Comic Sans MS;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="561" y="240" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mil8iCHffXOVC5dH87-_-14" value="&lt;font&gt;5&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Comic Sans MS;labelBackgroundColor=none;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#666666;gradientColor=none;" vertex="1" parent="1">
@@ -445,8 +445,13 @@
         <mxCell id="mil8iCHffXOVC5dH87-_-15" value="&lt;font&gt;6&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Comic Sans MS;labelBackgroundColor=none;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="321" y="320" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mil8iCHffXOVC5dH87-_-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="mil8iCHffXOVC5dH87-_-17" target="mil8iCHffXOVC5dH87-_-7">
+        <mxCell id="mil8iCHffXOVC5dH87-_-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mil8iCHffXOVC5dH87-_-17" target="mil8iCHffXOVC5dH87-_-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHtGzoyOS9e3n1ufZ3Pn-1" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#333333;" vertex="1" connectable="0" parent="mil8iCHffXOVC5dH87-_-16">
+          <mxGeometry x="0.4449" y="3" relative="1" as="geometry">
+            <mxPoint x="17" y="-9" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mil8iCHffXOVC5dH87-_-17" value="&lt;font&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Comic Sans MS;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="481" y="80" width="40" height="40" as="geometry" />
@@ -454,14 +459,11 @@
         <mxCell id="mil8iCHffXOVC5dH87-_-19" value="当前状态考虑节点 `2`（回溯）" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;gradientDirection=east;gradientColor=#FFFFFF;spacingTop=0;" vertex="1" parent="1">
           <mxGeometry x="51" y="160" width="169" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mil8iCHffXOVC5dH87-_-20" value="由于 `dist[1][2] + dist[2][4] &amp;gt; dist[1][4]`" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="mil8iCHffXOVC5dH87-_-20" value="由于 `dist[1][2] + dist[2][4] = dist[1][4]`" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="51" y="200" width="249" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mil8iCHffXOVC5dH87-_-21" value="因此 `3` 不在关键路径上，空子树也算答案" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="mil8iCHffXOVC5dH87-_-21" value="因此 `2` 在关键路径上，直接返回 `1 \times 2 = 2`" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="51" y="230" width="249" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mil8iCHffXOVC5dH87-_-22" value="返回 `2`" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="51" y="260" width="249" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
