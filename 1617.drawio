@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T04:59:01.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1660.13" etag="t6EfrEfGJdEgrc0QR2N-" version="20.8.22" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-03T04:59:41.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1660.13" etag="npPAMtNmMTI2A7PLiDqu" version="20.8.22" type="github" pages="2">
   <diagram name="第 1 页" id="3MDf4YGmxCO-XQUa7wRc">
     <mxGraphModel dx="832" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -100,10 +100,10 @@
         <mxCell id="IH5PTFiFuFpvSi-eJwKh-13" value="当前状态" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;gradientDirection=east;gradientColor=#FFFFFF;spacingTop=0;" vertex="1" parent="1">
           <mxGeometry x="51" y="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IH5PTFiFuFpvSi-eJwKh-14" value="`dist[3][1] = dist[1][2]` 并且 `2 + 1` 不大于 `1 + 2`" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="IH5PTFiFuFpvSi-eJwKh-14" value="`dist[3][1] = dist[1][2]` 并且 `3 + 1` 大于 `1 + 2`" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="51" y="240" width="289" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IH5PTFiFuFpvSi-eJwKh-15" value="故将 2 加入到子树中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="IH5PTFiFuFpvSi-eJwKh-15" value="故不将 3 加入到子树中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="51" y="280" width="139" height="30" as="geometry" />
         </mxCell>
       </root>
